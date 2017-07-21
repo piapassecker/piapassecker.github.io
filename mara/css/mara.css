@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Kite One', sans-serif;
+  font-size: 16px;
+}
+.clear {
+  clear: both;
+}
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+#logo {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  background-image: url(../img/gallery/pic-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.top-bottom {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.top {
+  padding-top: 50px;
+}
+.bottom {
+  padding-bottom: 50px;
+}
+.color {
+  background-color: #bf0707;
+  color: #fff;
+}
+#scroll {
+    background: none;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid #e5d9c9;
+    position: relative;
+    bottom: 10rem;
+}
+.mara {
+    width: 100%;
+    border-radius: 30%;
+    border: 4px solid #fff;
+    padding: 5px;
+    float: right;
+}
+.mara-me {
+    width: 100%;
+}
+#maras-pics img {
+  padding: 5px;
+  float: left;
+}
