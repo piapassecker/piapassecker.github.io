@@ -32,7 +32,18 @@
 .color {
   background-color: #bf0707;
   color: #fff;
+  border: 1px solid #fff;
 }
+.color a {
+    color: #fff;
+}
+.color a:focus, .color a:hover {
+    text-decoration: none;
+    background-color: #fff;
+    color: #bf0707;
+    padding: 5px 10px;
+}
+
 #scroll {
     background: none;
     width: 0;
